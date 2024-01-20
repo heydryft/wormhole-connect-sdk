@@ -15,6 +15,7 @@ const circleDomains = [
   ["Arbitrum", 3],
   ["Solana", 5],
   ["Base", 6],
+  ["Polygon", 7],
 ] as const satisfies MapLevel<Chain, number>;
 
 const usdcContracts = [
@@ -27,6 +28,7 @@ const usdcContracts = [
       ["Optimism", "0x179522635726710dd7d2035a81d856de4aa7836c"],
       ["Solana", "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],
       ["Base", "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"],
+      ["Polygon", "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"]
     ],
   ],
   [
